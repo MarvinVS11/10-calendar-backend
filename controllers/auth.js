@@ -44,7 +44,7 @@ const token = await generarJWT(usuario.id, usuario.name)
 
 }
 const loginUsuario= async(req, res= response)=>{
-
+debugger; 
   
     const { email, password} =req.body;
 
